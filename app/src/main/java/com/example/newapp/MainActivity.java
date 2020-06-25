@@ -51,8 +51,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String movie = t.getText().toString();
-                new Myasynctask().execute(movie);
-                new ImageTask().execute(movie);
+                if(!movie.equals("")) {
+                    new Myasynctask().execute(movie);
+                    new ImageTask().execute(movie);
+                }
             }
         });
     }
