@@ -23,10 +23,28 @@
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:fontFamily="@font/bungee"
-        android:text="my app"
+        android:text="Movie"
+        android:includeFontPadding="false"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#ffffff"
+        android:gravity="center_horizontal"
         android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:transitionName="Logotext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bungee"
+        android:text="Searcher"
+        android:includeFontPadding="false"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="60sp" />
 
 </LinearLayout>

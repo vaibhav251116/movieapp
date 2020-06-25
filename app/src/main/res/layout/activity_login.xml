@@ -23,11 +23,22 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:fontFamily="@font/bungee"
-            android:text="My app"
+            android:text="Movie"
             android:transitionName="Logotext"
             android:textAllCaps="true"
             android:textSize="50sp"
             android:includeFontPadding="false"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/bungee"
+        android:text="Searcher"
+        android:transitionName="Logotext2"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:includeFontPadding="false"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -35,7 +46,7 @@
             android:layout_marginLeft="30dp"
             android:text="Sign in to continue"
             android:textAllCaps="true"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
